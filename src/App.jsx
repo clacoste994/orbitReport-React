@@ -19,8 +19,9 @@ function App() {
       <Buttons
            filterByType={filterByType}
            setSat={setSat}
-           displaySats={displaySats} />
-      <Table />
+           displaySats={displaySats} 
+           />
+      <Table sat={sat} />
     </div>
   );
 }
